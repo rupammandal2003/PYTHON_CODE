@@ -1,0 +1,12 @@
+tup1=(4,5,8,6,58,52,"Apple","Banana")
+tup2=(4,8,9,7,36,45,"Mango")
+tup3=tup1+tup2
+print(tup3)
+lst_tup1=list(tup1)
+print(type(lst_tup1))
+lst_tup1.append(9)
+print(lst_tup1)
+lst_tup1.pop(5)
+print(lst_tup1)
+tuple_tup1=tuple(lst_tup1)
+print(tuple_tup1)

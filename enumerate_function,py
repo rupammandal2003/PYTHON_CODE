@@ -1,0 +1,13 @@
+# fruits=["banana","apple","mango","lichi"]
+# for index,fruit in enumerate(fruits):
+#     print(index,fruit)
+    
+    
+# fruits=["banana","apple","mango","lichi"]
+# for index,fruit in enumerate(fruits,start=1):  # start= 1 is used if we want to start the index counting from 1 
+#     print(f"{index}:{fruit}")
+    
+    
+fruits=["banana","apple","mango","lichi"]
+for v in enumerate(fruits):    # if we use v then the output will be as a tuple format: "( index, 'fruit')" like this
+    print(v)

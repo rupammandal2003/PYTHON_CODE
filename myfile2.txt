@@ -1,0 +1,3 @@
+Rupam,99,98,97
+Subhadeep,58,69,57
+Atanu,25,59,61

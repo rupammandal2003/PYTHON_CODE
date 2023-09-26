@@ -1,0 +1,21 @@
+  
+    
+a=input()
+d=a.swapcase()
+b=[]
+c=[]
+for i in range(len(d)):
+    if d[i].islower():
+        b.append(i)
+for j in range(len(b)+1):
+    if j==0:
+        c.append(d[0:b[j]])
+    elif 0<j<len(b):
+        c.append(d[b[j-1]:b[j]])
+    else:
+        c.append(d[b[j-1]:])
+for i in c:
+    print(i)
+
+
+
